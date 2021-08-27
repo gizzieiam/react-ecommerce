@@ -1,11 +1,11 @@
 import React from 'react'
-import productsNames from './../Components/helpers/productsName';
+import AllProducts from '../Components/products/AllProducts'
 
 
 function Products(props) {
-    productsNames()
     return(
         <>
+            <AllProducts />
         </>
     )
 }

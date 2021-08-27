@@ -2,7 +2,6 @@ import Products from '../../Data/Products.json'
 
 
 function productsNames(){
-    console.log(Products)
     let names = []
     for (const item in Products) {
         if (Object.hasOwnProperty.call(Products, item)) {
