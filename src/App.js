@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Products from './Routes/Products';
 import ProductDetails from './Routes/ProductDetails';
 import Cart from './Routes/Cart';

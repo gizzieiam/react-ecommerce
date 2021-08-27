@@ -1,0 +1,105 @@
+[
+    {
+        "productName": "bon bons",
+        "image": "/odsax",
+        "id": 1,
+        "category": "fruit",
+        "price": 0.25,
+        "quantity": 12
+
+    },
+    {
+        "productName": "peas",
+        "image": "/odsax",
+        "id": 2,
+        "category": "veggies",
+        "price": 21,
+        "quantity": 7
+
+    },
+    {
+        "productName": "apples",
+        "image": "/odsax",
+        "id": 3,
+        "category": "fruit",
+        "price": 2,
+        "quantity": 1
+    },
+    {
+        "productName": "apple pie",
+        "image": "/odsax",
+        "id": 4,
+        "category": "desert",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "productName": "banana",
+        "image": "/odsax",
+        "id": 5,
+        "category": "fruit",
+        "price": 5,
+        "quantity": 7
+
+    },
+    {
+        "productName": "corn",
+        "image": "/odsax",
+        "id": 6,
+        "category": "veggies",
+        "price": 9,
+        "quantity": 7
+
+    },
+    {
+        "productName": "water",
+        "image": "/odsax",
+        "id": 7,
+        "category": "drinks",
+        "price": 1,
+        "quantity": 1
+    },
+    {
+        "productName": "pumpkin pie",
+        "image": "/odsax",
+        "id": 8,
+        "category": "desert",
+        "price": 2,
+        "quantity": 10
+    },
+    {
+        "productName": "soda",
+        "image": "/odsax",
+        "id": 9,
+        "category": "drinks",
+        "price": 1,
+        "quantity": 2
+
+    },
+    {
+        "productName": "fruit punch",
+        "image": "/odsax",
+        "id": 10,
+        "category": "drinks",
+        "price": 6,
+        "quantity": 7
+
+    },
+    {
+        "productName": "strawberries",
+        "image": "/odsax",
+        "id": 11,
+        "category": "fruit",
+        "price": 2,
+        "quantity": 1
+    },
+    {
+        "productName": "keylime pie",
+        "image": "/odsax",
+        "id": 12,
+        "category": "desert",
+        "price": 2,
+        "quantity": 10
+    }
+
+]
