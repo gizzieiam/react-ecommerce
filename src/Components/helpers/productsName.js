@@ -1,15 +1,17 @@
 import Products from '../../Data/Products.json'
 
 
-function productsNames(){
-    let names = []
+function productsNames(name){
     for (const item in Products) {
         if (Object.hasOwnProperty.call(Products, item)) {
             const element = Products[item];
-            names.push(element.productName)
+            if (element.productName === name) {
+                return element;
+            }else{
+                return "Not found"
+            }
         }
     }
-    return names
 }
 
 export default productsNames

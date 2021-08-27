@@ -1,28 +1,24 @@
 import React from 'react'
-import productsNames from '../helpers/productsName'
+import { Link } from "react-router-dom";
 import Products from './../../Data/Products';
 
 function AllProducts(props) {
-    let sortProduct = productsNames().sort()
     let show = []
-
-    for (const item of sortProduct) {
-        for (const inventory in Products) {
-            if (Object.hasOwnProperty.call(Products, inventory)) {
-                const element = Products[inventory].productName;
-                if (item === element) {
-                    show.push(
-                        <li>
-                            <h1>{item}</h1>
-
-                        </li>
-                    )
-                    console.log(element);
-                }
-                
-            }
-        }
+    for (const item of Products) {
+        show.push(
+            <li key={item.id}>
+                <Link to={{
+                    pathname: '/productDetails',
+                    state:{
+                        item: item.productName
+                    }
+                }}>
+                    <h1>{item.productName}</h1>
+                </Link>
+            </li>
+        )
     }
+
     return(
         <ul>
             {show}
