@@ -1,105 +1,201 @@
 [
     {
-        "productName": "bon bons",
+        "productName": "wonka Bar",
         "image": "/odsax",
         "id": 1,
-        "category": "fruit",
-        "price": 0.25,
-        "quantity": 12
+        "category": "chocolate",
+        "price": 1.25,
+        "quantity": 12,
+        "oompaApproved": true
 
     },
     {
-        "productName": "peas",
+        "productName": "everlasting gobstoppers",
         "image": "/odsax",
         "id": 2,
-        "category": "veggies",
-        "price": 21,
-        "quantity": 7
+        "category": "hard candies",
+        "price": 1.50,
+        "quantity": 7,
+        "oompaApproved": true
 
     },
     {
-        "productName": "apples",
+        "productName": "fizzy lifting drinks",
         "image": "/odsax",
         "id": 3,
-        "category": "fruit",
-        "price": 2,
-        "quantity": 1
+        "category": "drinks",
+        "price": 2.00,
+        "quantity": 3,
+        "oompaApproved": false
+
     },
     {
-        "productName": "apple pie",
-        "image": "/odsax",
+        "productName": "hair toffee",
+        "image": "none",
         "id": 4,
         "category": "desert",
-        "price": 2,
-        "quantity": 10
+        "price": 1.00,
+        "quantity": 10,
+        "oompaApproved": true
+
     },
     {
-        "productName": "banana",
+        "productName": "lickable wallpaper",
         "image": "/odsax",
         "id": 5,
-        "category": "fruit",
-        "price": 5,
-        "quantity": 7
+        "category": "other",
+        "price": 5.00,
+        "quantity": 0,
+        "oompaApproved": true
 
     },
     {
-        "productName": "corn",
+        "productName": "square candies",
         "image": "/odsax",
         "id": 6,
-        "category": "veggies",
-        "price": 9,
-        "quantity": 7
+        "category": "hard candies",
+        "price": 1.50,
+        "quantity": 7,
+        "oompaApproved": true
 
     },
     {
-        "productName": "water",
+        "productName": "wonka gum",
         "image": "/odsax",
         "id": 7,
         "category": "drinks",
-        "price": 1,
-        "quantity": 1
+        "price": 1.00,
+        "quantity": 1,
+        "oompaApproved": true
+
     },
     {
-        "productName": "pumpkin pie",
+        "productName": "bluebird's egg candy",
         "image": "/odsax",
         "id": 8,
-        "category": "desert",
-        "price": 2,
-        "quantity": 10
+        "category": "chocolate",
+        "price": 0.50,
+        "quantity": 10,
+        "oompaApproved": true
+
     },
     {
-        "productName": "soda",
+        "productName": "apple milk",
         "image": "/odsax",
         "id": 9,
         "category": "drinks",
-        "price": 1,
-        "quantity": 2
+        "price": 1.00,
+        "quantity": 2,
+        "oompaApproved": true
 
     },
     {
-        "productName": "fruit punch",
+        "productName": "caramels",
         "image": "/odsax",
         "id": 10,
-        "category": "drinks",
-        "price": 6,
-        "quantity": 7
+        "category": "chocolate",
+        "price": 1.50,
+        "quantity": 0,
+        "oompaApproved": true
 
     },
     {
-        "productName": "strawberries",
+        "productName": "never melting ice cream",
         "image": "/odsax",
         "id": 11,
-        "category": "fruit",
-        "price": 2,
-        "quantity": 1
+        "category": "ice cream",
+        "price": 2.50,
+        "quantity": 0,
+        "oompaApproved": true
     },
     {
-        "productName": "keylime pie",
+        "productName": "bottle caps",
         "image": "/odsax",
         "id": 12,
-        "category": "desert",
-        "price": 2,
-        "quantity": 10
-    }
+        "category": "hard candy",
+        "price": 1.00,
+        "quantity": 10,
+        "oompaApproved": true
 
+    },
+    {
+        "productName": "donutz",
+        "image": "/odsax",
+        "id": 13,
+        "category": "dessert",
+        "price": 1.00,
+        "quantity": 25,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "kazookles",
+        "image": "/odsax",
+        "id": 14,
+        "category": "hard candy",
+        "price": 1.50,
+        "quantity": 1,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "laffy taffy",
+        "image": "/odsax",
+        "id": 15,
+        "category": "candy",
+        "price": 0.50,
+        "quantity": 5,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "nerds",
+        "image": "/odsax",
+        "id": 15,
+        "category": "hard candy",
+        "price": 1.00,
+        "quantity": 8,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "nerds rope",
+        "image": "/odsax",
+        "id": 16,
+        "category": "hard candy",
+        "price": 1.25,
+        "quantity": 10,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "pixy stix",
+        "image": "/odsax",
+        "id": 17,
+        "category": "hard candy",
+        "price": 1.00,
+        "quantity": 50,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "runts",
+        "image": "/odsax",
+        "id": 18,
+        "category": "hard candy",
+        "price": 1.50,
+        "quantity": 3,
+        "oompaApproved": true
+
+    },
+    {
+        "productName": "sweet tarts",
+        "image": "/odsax",
+        "id": 19,
+        "category": "hard candy",
+        "price": 1.00,
+        "quantity": 10,
+        "oompaApproved": true
+
+    }
 ]
