@@ -1,6 +1,7 @@
 import React from 'react'
-import AddToCart from '../cart/AddToCart';
+import AddToCart from '../cart/Quantity';
 import productsNames from './../helpers/productsName';
+import Quantity from './../cart/Quantity';
 
 function SingleItem(props) {
     let selected = props.item
@@ -13,14 +14,13 @@ function SingleItem(props) {
     }else{
         imgSrc = 'oompa'
     }
-    console.log(itemInfo);
     show.push(
         <li key={itemInfo.id + 20}>
             {imgSrc}
             <img src={imgSrc} alt='' />ee
             <h1>{itemInfo.productName}</h1>
             <p>Price: {itemInfo.price}</p>
-            <AddToCart item={itemInfo.productName} />
+            <Quantity item={itemInfo.productName} />
         </li>
     )
 
