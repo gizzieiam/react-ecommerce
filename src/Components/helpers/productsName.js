@@ -6,9 +6,7 @@ function productsNames(name){
         if (Object.hasOwnProperty.call(Products, item)) {
             const element = Products[item];
             if (element.productName === name) {
-                return element;
-            }else{
-                return "Not found"
+                return element
             }
         }
     }
