@@ -38,7 +38,7 @@ function Quantity(props){
             <button onClick={handleDecrement}>-</button>
             {quantity[quantity.length-1].count}
             <button onClick={handleIncrement}>+</button>
-            <AddToCart />
+            <AddToCart item={item} amount={quantity[quantity.length-1].count} />
         </>
     )
 }
