@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import productsQuantity from './../helpers/productQuantity';
+import AddToCart from './AddToCart';
 
 function Quantity(props){
     let item = props.item
+    let amount = productsQuantity(item)
 
     const [quantity, setQuantity] = useState([
         {
@@ -9,13 +12,16 @@ function Quantity(props){
         }
     ])
 
-    
 
     const handleIncrement = (e) => {
         let currAmount = quantity[quantity.length-1].count
-        setQuantity([...quantity, {
-            "count": currAmount + 1
-        }])
+        if (currAmount < amount) {
+            setQuantity([...quantity, {
+                "count": currAmount + 1
+            }])
+        }else{
+            //TODO: msg max items reached
+        }
     }
 
     const handleDecrement = (e) => {
@@ -32,6 +38,7 @@ function Quantity(props){
             <button onClick={handleDecrement}>-</button>
             {quantity[quantity.length-1].count}
             <button onClick={handleIncrement}>+</button>
+            <AddToCart />
         </>
     )
 }
