@@ -8,7 +8,7 @@ function regex(item, returnType){
     }else if (returnType === 'amount') {
         let re = /[-]+([\d]+)/g
         let match = [...item.matchAll(re)]
-        return match[1]
+        return match[0][1]
     }
 
 }
