@@ -11,15 +11,57 @@ body{
 select{
   height: 40px;
 }
+.vc-ul{
+  list-style-type: none;
+  position: relative;
+  right: 10px;
+  margin-top: 30px;
+}
+.vc-wrap{
+  flex-wrap: wrap;
+  width: 90px;
+}
+.vc-div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+.vc-li{
+  display: flex;
+  justify-content: space-between;
+  transition: all .2s ease-in-out;
+}
+.vc-li:hover{
+  transform: scale(1.1); 
+}
+.vc-img{
+  width: 40px;
+}
 .search-li{
   display: flex;
   justify-content: space-evenly;
   position: relative;
   right: 75px;
 }
+#total{
+  position: absolute;
+  right: 40px;
+}
 .search-img{
   width: 80px;
 
+}
+#vc-btn{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 70px;
+  top: 30px;
+  width: 200px;
+  text-align: center;
+}
+.vc-btn{
+  text-decoration: none;
 }
 .ap-img{
   width: 100px;

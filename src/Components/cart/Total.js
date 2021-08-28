@@ -14,7 +14,7 @@ function Total(props) {
     }
     return(
         <>
-            <p>
+            <p id='total' className='text-secondary'>
                 Total: {total}
             </p>
         </>

@@ -26,17 +26,24 @@ function ViewCart(props){
                 qt.push(amount)
                 owed.push(price)
                 show.push(
-                    <li key={name.id + 40}>
-                        <h1>
+                    <li key={name.id + 40} className='vc-li'>
+                        <div>
+                        <img className='vc-img' src={name.image} alt=''/>
+                        <p className='vc-wrap'>
                             {item}
-                        </h1>
-
-                        <p>
-                            Qt. {amount}
                         </p>
-                        <p>
+
+                        </div>
+                        <div className='vc-div'>
+                        <p className='vc-qty text-secondary'>
+                            Qty. {amount}
+                        </p>
+                        <p className='vc-price'>
                             Price ${price}
                         </p>
+
+                        </div>
+
 
 
                     </li>
@@ -47,8 +54,21 @@ function ViewCart(props){
     }
     return(
         <>
-            {show}
-            <Total cost={owed} amount={qt} />
+            <ul className='vc-ul'>
+                {show}
+                <Total cost={owed} amount={qt} />
+            </ul>
+            <div id='vc-btn'>
+
+                <button className='btn btn-light'>
+                    <a href='/' className='vc-btn'>
+                        <p className='text-secondary'>
+                            Proceed to checkout
+                        </p>
+                    </a>
+                </button>
+                <a href='/'>Continue shopping</a>
+            </div>
         </>
     )
 }
