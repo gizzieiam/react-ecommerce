@@ -23,7 +23,7 @@ function AddToCart(props){
             <button onClick={handleAdd} className='btn btn-outline-light add-btn'>
                 Add to Cart
             </button>
-            <p>{msg[msg.length-1].msg}</p>
+            <p className='align-center text-muted'>{msg[msg.length-1].msg}</p>
         </>
     )
 }

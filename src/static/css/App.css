@@ -14,8 +14,18 @@ body{
   display: flex;
   flex-direction: column;
 }
-#pd-img{
-
+#si-btn-container{
+  position: relative;
+  top: 70px;
+}
+.si-img{
+  position: relative;
+  top: 28px;
+  left: 30px;
+  width: 350px;
+}
+.align-center{
+  text-align: center;
 }
 #pd-name{
   text-align: center;

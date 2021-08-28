@@ -1,8 +1,7 @@
 import React from 'react'
-import AddToCart from '../cart/Quantity';
 import productsNames from './../helpers/productsName';
 import Quantity from './../cart/Quantity';
-
+import titleCasing from './../helpers/titleCasing';
 function SingleItem(props) {
     let selected = props.item
     let show = []
@@ -16,11 +15,15 @@ function SingleItem(props) {
     }
     show.push(
         <li key={itemInfo.id + 20} className='pd-li'>
-            {imgSrc}
-            <img src={imgSrc} alt='' />ee
-            <h1 id='pd-name'>{itemInfo.productName}</h1>
-            <p>Price: {itemInfo.price}</p>
-            <Quantity item={itemInfo.productName} />
+            <img src={imgSrc} alt='' className='si-img' />
+            <br />
+            <br/>
+
+            <h1 id='pd-name'>{titleCasing(itemInfo.productName)}</h1>
+            <p id='si-price' className='align-center text-muted'>Price: ${itemInfo.price}</p>
+            <div id='si-btn-container'>
+                <Quantity item={itemInfo.productName} />
+            </div>
         </li>
     )
 
