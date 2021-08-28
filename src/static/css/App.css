@@ -14,9 +14,17 @@ body{
   display: flex;
   flex-direction: column;
 }
+#cl-count{
+  position: absolute;
+  right: 25px;
+  top: -2px;
+}
 #si-btn-container{
   position: relative;
   top: 70px;
+}
+#cart-img{
+  width: 30px;
 }
 .si-img{
   position: relative;
