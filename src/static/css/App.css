@@ -1,3 +1,36 @@
+body{
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 732px;
+}
+#root, 
+.app{
+  height: 731px
+}
 .hide{
   display: none;
+}
+.pd-li{
+  display: flex;
+  flex-direction: column;
+}
+#pd-img{
+
+}
+#pd-name{
+  text-align: center;
+}
+#qt-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.qt-btn{
+  width: 100px;
+}
+.add-btn{
+  width: 310px;
+  position: relative;
+  left: 50px;
+  padding: 10px;
+  margin-top: 30px;
 }

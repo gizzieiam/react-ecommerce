@@ -35,10 +35,14 @@ function Quantity(props){
 
     return(
         <>
-            <button onClick={handleDecrement}>-</button>
-            {quantity[quantity.length-1].count}
-            <button onClick={handleIncrement}>+</button>
-            <AddToCart item={item} amount={quantity[quantity.length-1].count} />
+        <div id='qt-div'>
+            <button onClick={handleDecrement} className='btn btn-outline-secondary qt-btn'>-</button>
+            <p className='text-secondary'>
+                {quantity[quantity.length-1].count}
+            </p>
+            <button onClick={handleIncrement} className='btn btn-outline-secondary qt-btn'>+</button>
+        </div>
+        <AddToCart item={item} amount={quantity[quantity.length-1].count} />
         </>
     )
 }

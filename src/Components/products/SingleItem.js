@@ -15,10 +15,10 @@ function SingleItem(props) {
         imgSrc = 'oompa'
     }
     show.push(
-        <li key={itemInfo.id + 20}>
+        <li key={itemInfo.id + 20} className='pd-li'>
             {imgSrc}
             <img src={imgSrc} alt='' />ee
-            <h1>{itemInfo.productName}</h1>
+            <h1 id='pd-name'>{itemInfo.productName}</h1>
             <p>Price: {itemInfo.price}</p>
             <Quantity item={itemInfo.productName} />
         </li>
