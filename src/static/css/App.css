@@ -1,11 +1,54 @@
+html,
+#root
+{
+  max-height: 952px;
+  height: 100%;
+}
 body{
   background-size: contain;
   background-repeat: no-repeat;
-  max-height: 732px;
 }
-#root, 
-.app{
-  height: 731px
+select{
+  height: 40px;
+}
+.search-li{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 75px;
+}
+.search-img{
+  width: 80px;
+
+}
+.ap-img{
+  width: 100px;
+  height: 100px;
+}
+.search-Link{
+  text-decoration: none;
+}
+#search-ul{
+  list-style-type: none;
+}
+#al-ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  position: relative;
+}
+.ap-Link{
+  text-decoration: none;
+}
+.ap-h5{
+  position: relative;
+  top: 30px;
+}
+.ap-li{
+  margin: 10px;
+  display: flex;
+  width: 376px;
+  justify-content: space-between;
 }
 .hide{
   display: none;

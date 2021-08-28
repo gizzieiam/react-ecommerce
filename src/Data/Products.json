@@ -11,7 +11,7 @@
     },
     {
         "productName": "everlasting gobstoppers",
-        "image": "/odsax",
+        "image": "/static/media/EG.cc3248ad.jpg",
         "id": 2,
         "category": "hard candies",
         "price": 1.50,
@@ -21,7 +21,7 @@
     },
     {
         "productName": "fizzy lifting drinks",
-        "image": "/odsax",
+        "image": "/static/media/fld.4f488099.png",
         "id": 3,
         "category": "drinks",
         "price": 2.00,
@@ -30,18 +30,8 @@
 
     },
     {
-        "productName": "hair toffee",
-        "image": "none",
-        "id": 4,
-        "category": "desert",
-        "price": 1.00,
-        "quantity": 10,
-        "oompaApproved": true
-
-    },
-    {
         "productName": "lickable wallpaper",
-        "image": "/odsax",
+        "image": "/static/media/lwp.0a12a08c.jpg",
         "id": 5,
         "category": "other",
         "price": 5.00,
@@ -51,7 +41,7 @@
     },
     {
         "productName": "square candies",
-        "image": "/odsax",
+        "image": "/static/media/sqc.74b5e8d5.jfif",
         "id": 6,
         "category": "hard candies",
         "price": 1.50,
@@ -61,7 +51,7 @@
     },
     {
         "productName": "wonka gum",
-        "image": "/odsax",
+        "image": "/static/media/wg.54760299.png",
         "id": 7,
         "category": "drinks",
         "price": 1.00,
@@ -71,7 +61,7 @@
     },
     {
         "productName": "bluebird's egg candy",
-        "image": "/odsax",
+        "image": "/static/media/bd.503b0b34.jfif",
         "id": 8,
         "category": "chocolate",
         "price": 0.50,
@@ -81,7 +71,7 @@
     },
     {
         "productName": "apple milk",
-        "image": "/odsax",
+        "image": "/static/media/am.0bae3fef.jfif",
         "id": 9,
         "category": "drinks",
         "price": 1.00,
@@ -91,7 +81,7 @@
     },
     {
         "productName": "caramels",
-        "image": "/odsax",
+        "image": "/static/media/crml.2f4872e1.jfif",
         "id": 10,
         "category": "chocolate",
         "price": 1.50,
@@ -101,16 +91,16 @@
     },
     {
         "productName": "never melting ice cream",
-        "image": "/odsax",
+        "image": "/static/media/cic.b08bbbd5.jfif",
         "id": 11,
         "category": "ice cream",
         "price": 2.50,
         "quantity": 0,
-        "oompaApproved": true
+        "oompaApproved": false
     },
     {
         "productName": "bottle caps",
-        "image": "/odsax",
+        "image": "/static/media/bc.85c53f6d.jfif",
         "id": 12,
         "category": "hard candy",
         "price": 1.00,
@@ -120,7 +110,7 @@
     },
     {
         "productName": "donutz",
-        "image": "/odsax",
+        "image": "/static/media/dntz.337652ea.jfif",
         "id": 13,
         "category": "dessert",
         "price": 1.00,
@@ -130,7 +120,7 @@
     },
     {
         "productName": "kazookles",
-        "image": "/odsax",
+        "image": "/static/media/kzl.93913044.jfif",
         "id": 14,
         "category": "hard candy",
         "price": 1.50,
@@ -140,7 +130,7 @@
     },
     {
         "productName": "laffy taffy",
-        "image": "/odsax",
+        "image": "/static/media/lt.a5c79b06.jfif",
         "id": 15,
         "category": "candy",
         "price": 0.50,
@@ -150,7 +140,7 @@
     },
     {
         "productName": "nerds",
-        "image": "/odsax",
+        "image": "/static/media/nds.e6af4930.jfif",
         "id": 20,
         "category": "hard candy",
         "price": 1.00,
@@ -160,7 +150,7 @@
     },
     {
         "productName": "nerds rope",
-        "image": "/odsax",
+        "image": "/static/media/ndsr.a86b9e52.jfif",
         "id": 16,
         "category": "hard candy",
         "price": 1.25,
@@ -170,7 +160,7 @@
     },
     {
         "productName": "pixy stix",
-        "image": "/odsax",
+        "image": "/static/media/pxst.17e05678.jfif",
         "id": 17,
         "category": "hard candy",
         "price": 1.00,
@@ -180,7 +170,7 @@
     },
     {
         "productName": "runts",
-        "image": "/odsax",
+        "image": "/static/media/rnt.6839d050.jfif",
         "id": 18,
         "category": "hard candy",
         "price": 1.50,
@@ -190,7 +180,7 @@
     },
     {
         "productName": "sweet tarts",
-        "image": "/odsax",
+        "image": "/static/media/crml.2f4872e1.jfif",
         "id": 19,
         "category": "hard candy",
         "price": 1.00,

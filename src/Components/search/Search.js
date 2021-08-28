@@ -17,16 +17,18 @@ function Search(props){
             if(itemCheck){
                 if(productItem.quantity > 0){
                     results.push(
-                        <li>
+                        <li className='search-li'>
+                            
+                            <img className='search-img' src={productItem.image} alt='' />
                             <Link to={{
                                 pathname: '/details',
                                 state:{
                                     name: productItem
                                 }
-                            }}>
-                                <h1>
+                            }} className='search-Link'>
+                                <p>
                                     {productItem.productName}
-                                </h1>
+                                </p>
 
                             </Link>
                         </li>
@@ -44,9 +46,9 @@ function Search(props){
                                     selected: productItem.productName
                                 }
                             }}>
-                                <h1>
+                                <p>
                                     {productItem.productName}
-                                </h1>
+                                </p>
                             </Link>
                         </li>
                     )
@@ -60,14 +62,14 @@ function Search(props){
                     results.push(
                         <li>
                             <Link to={{
-                                pathname: '/details',
+                                pathname: '/productDetails',
                                 state: {
                                     selected: productItem.productName
                                 }
                             }}>
-                                <h1>
+                                <p>
                                     {productItem.productName}
-                                </h1>
+                                </p>
                             </Link>
                         </li>
                     )
@@ -78,9 +80,11 @@ function Search(props){
 
 
     return(
-        <>
+        <div class="card border-secondary mb-3">
+        <ul id='search-ul'>
             {results}
-        </>
+        </ul>
+        </div>
     )
 }
 

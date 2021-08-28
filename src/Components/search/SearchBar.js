@@ -12,6 +12,11 @@ function SearchBar(props){
         }
     ])
 
+    const [search, setSearch] = useState([{
+        input: 'default',
+        option: 'Name'
+    }])
+
     const handleChange = (e) =>{
         setUserInput([...userInput, {
             input: e.target.value,
@@ -28,6 +33,10 @@ function SearchBar(props){
 
     const handleSubmit = (e)=>{
         e.preventDefault()
+        setSearch([...search, {
+            input: userInput[userInput.length-1].input,
+            option: userInput[userInput.length-1].option,
+        }])
         setShow([...show, {
             classN: "show"
         }])
@@ -35,17 +44,17 @@ function SearchBar(props){
     return(
         <>
             <form method='POST'>
-                <select onChange={handleSelect}>
+                <select onChange={handleSelect} className='col-form-label mt-4'>
                     <option>Name</option>
                     <option>Id</option>
                     <option>Category</option>
 
                 </select>
-                <input onChange={handleChange} />
-                <button onClick={handleSubmit}>Search</button>
+                <input  className='col-form-label mt-4' onChange={handleChange} />
+                <button onClick={handleSubmit} className='btn btn-outline-secondary'>Search</button>
             </form>
             <div className={show[show.length-1].classN}>
-                <Search searchItem={userInput[userInput.length-1].input} searchBy={userInput[userInput.length-1].option} />
+                <Search searchItem={search[search.length-1].input} searchBy={search[search.length-1].option} />
             </div>
         </>
 

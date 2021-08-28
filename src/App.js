@@ -8,10 +8,12 @@ import AddProducts from './Routes/AddProducts';
 import Admin from './Routes/Admin';
 import Checkout from './Routes/Checkout';
 import NavBar from './Components/navBar/NavBar';
+import Imglist from './static/img/img';
 
 function App() {
   return (
     <div className="App">
+      <Imglist />
       <NavBar />
       <Route exact path ="/" component={Products} />
       <Route exact path ="/productDetails" component={ProductDetails} />
