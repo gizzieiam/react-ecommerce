@@ -80,7 +80,7 @@ function Search(props){
 
 
     return(
-        <div class="card border-secondary mb-3">
+        <div className="card border-secondary mb-3">
         <ul id='search-ul'>
             {results}
         </ul>
