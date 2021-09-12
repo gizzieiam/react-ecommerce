@@ -21,18 +21,32 @@ function Card(props){
     ])
     
     const handleName = (e) =>{
-        setCard([...card, 
-            {
-            name: e.target.value,
-            num: card[card.length-1].num,
-            cvv: card[card.length-1].cvv,
-            zip: card[card.length-1].zip,
-            }
-        ])
+        let split = e.target.value.split(" ")
+        
+        if(split.length > 1){
+            setCard([...card, 
+                {
+                name: e.target.value,
+                num: card[card.length-1].num,
+                cvv: card[card.length-1].cvv,
+                zip: card[card.length-1].zip,
+                }
+            ])
+        }else{
+            setErr([...err, 
+                {
+                name: "Invalid Name. Please Enter Full Name",
+                num: err[err.length-1].num,
+                cvv: err[err.length-1].cvv,
+                zip: err[err.length-1].zip,
+                }
+            ])
+        }
     }
 
     const handleNum = (e) =>{
-        if(e.target.value.length === 14 || e.target.value.length < 15){
+        let string = e.target.value.toString()
+        if(string.length === 14 || string.length < 15){
             setCard([...card, 
                 {
                 name: card[card.length-1].name,
@@ -54,7 +68,8 @@ function Card(props){
     }
 
     const handleCvv = (e) =>{
-        if(e.target.value.length === 3 || e.target.value.length ===4){
+        let string = e.target.value.toString()
+        if(string.length === 3 || string.length ===4){
             setCard([...card, 
                 {
                 name: card[card.length-1].name,
@@ -76,14 +91,26 @@ function Card(props){
     }
 
     const handleZip = (e) =>{
-        setCard([...card, 
-            {
-            name: card[card.length-1].name,
-            num: card[card.length-1].num,
-            cvv: card[card.length-1].cvv,
-            zip: e.target.value,
-            }
-        ])
+        let string = e.target.value.toString()
+        if(string.length < 5){
+            setCard([...card, 
+                {
+                name: card[card.length-1].name,
+                num: card[card.length-1].num,
+                cvv: card[card.length-1].cvv,
+                zip: e.target.value,
+                }
+            ])
+        }else{
+            setErr([...err, 
+                {
+                name: err[err.length-1].name,
+                num: err[err.length-1].num,
+                cvv: err[err.length-1].cvv,
+                zip: 'Invalid Zip Code',
+                }
+            ])
+        }
     }
 
     return render(
